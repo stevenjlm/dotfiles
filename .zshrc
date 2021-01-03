@@ -21,3 +21,7 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #initialize Z (https://github.com/rupa/z)
 . ~/z.sh
+
+plugins=(virtualenv)
+
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time virtualenv)
